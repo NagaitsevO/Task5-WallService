@@ -1,3 +1,5 @@
+
+
 fun main() {
     val theFirstComments = Comments (
             canPost = true
@@ -21,5 +23,6 @@ fun main() {
 
     println(theFirstPost)
     WallService.add(theFirstPost)
-    
+    println(WallService.update(theFirstPost))
+    println(theFirstPost)
 }

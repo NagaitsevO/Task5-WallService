@@ -1,5 +1,5 @@
 data class Post(
-        val id: Int,
+        var id: Int,
         val ownerId: Int = 0,
         val fromId: Int = 0,
         val createdBy: Int = 0,
@@ -23,9 +23,7 @@ data class Post(
         var isFavorite: Boolean = false,
         var postponedId: Int = 0
 
-) {
-
-}
+) {}
 
 
 /*
